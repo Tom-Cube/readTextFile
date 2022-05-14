@@ -8,7 +8,12 @@ Namespace MCGalaxy
 			Get
 				Return "ReadTextFile"
 			End Get
-		End Property 
+		End Property
+		Public Overrides ReadOnly Property shortcut() As String
+			Get
+				Return ""
+			End Get
+		End Property
 		Public Overrides ReadOnly Property type() As String
 			Get
 				Return "other"
